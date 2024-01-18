@@ -17,6 +17,7 @@ input{
     margin-top:40px;
     height:25px;
     font-size: medium;
+    outline:none;
     font-family:Arial, Helvetica, sans-serif;
 }
 input:hover{
@@ -37,6 +38,7 @@ textarea{
     width: 310px;
     height:120px;
     color: white;
+    outline:none;
 }
 textarea:hover{
     border-color: blue;
@@ -61,4 +63,12 @@ border-radius: 6px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left:10px;
     border-radius: 6px;
+    }
+    #sub:hover{
+        background-color:gray;
+        color: black
+    }
+    #reset:hover{
+        background-color:blue;
+        color:white; 
     }
